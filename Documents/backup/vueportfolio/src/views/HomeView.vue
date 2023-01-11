@@ -19,7 +19,8 @@
   <!-- Icon Bar (Sidebar - hidden on small screens) -->
   <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
     <!-- Avatar image in top left corner -->
-    <img src="https://i.postimg.cc/0j6Ss9NY/mr-robot.jpg" style="width:100%">
+    <img src="https://i.postimg.cc/0j6Ss9NY/mr-robot.jpg" class="mrrobot" style="width:100% 
+    ">
 
 
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
@@ -50,6 +51,7 @@
       <i class="fa fa-envelope w3-xxlarge"></i>
       <h3>CONTACT</h3>
     </a>
+  
   </nav>
 
   <!-- Navbar -->
@@ -60,6 +62,7 @@
       <a href="#testimonials" class="w3-bar-item w3-button" style="width:25% !important">TESTIMONIALS</a>
       <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
       <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+      <a href="#resume" class="w3-bar-item w3-button" style="width:25% !important">RESUME</a>
       <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
     </div>
   </div>
@@ -87,10 +90,8 @@
     
     <div class="-padding-64 w3-content w3-text-light-grey" id="about">
     </div>
-        <h2 class="1-text-light-grey float-start ">About</h2>
-        <br>
-        <br>
-        <hr style="width:100px" class="w3-opacity">
+    <h2 class="w3-padding-16 w3-text-light-grey">About</h2>
+    <hr style="width:150px" class="w3-opacity">
       
 
         <p>I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team
@@ -110,19 +111,20 @@
       <h2 class="w3-padding-16 w3-text-light-grey">My Skills</h2>
       <hr style="width:150px" class="w3-opacity">
       <!--skill bars-->
-      <p class="w3-wide">HTML<i class="fa-brands fa-html5"></i></p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:65%"></div>
-      </div>
-      <br>
+     
       <p class="w3-wide">CSS<i class="fa-brands fa-css3-alt"></i></p>
       <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:50%"></div>
+        <div class="w3-dark-grey" style="height:28px;width:65%"></div>
       </div>
       <br>
       <p class="w3-wide">BOOTSTRAP<i class="fa-brands fa-bootstrap"></i></p>
       <div class="w3-white">
         <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+      </div>
+      <br>
+      <p class="w3-wide">JAVASCRIPT<i class="fa-brands fa-css3-alt"></i></p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:40%"></div>
       </div>
       
       <div class="w3-quarter w3-section">
@@ -146,18 +148,14 @@
 
  
       <br>
-      <!-- Testimonials -->
-
+      <br>
+      <br>
       <div class="-padding-64 w3-content w3-text-light-grey" id="testimonials">
-      </div>
-          <h2 class="1-text-light-grey float-start ">Testimonials</h2>
-          <hr style="width:0px" class="w3-opacity">
+    </div>
+      <h2 class="w3-padding-16 w3-text-light-grey">Testimonials</h2>
+      <hr style="width:155px" class="w3-opacity">
 
 
-          <br>
-          <hr style="width:200px" class="w3-opacity">
-          <br>
-          <!-- image 100*75(avatar) -->
 
 
           <img
@@ -199,10 +197,10 @@
           
           
           
-          <div class="-padding-64 w3-content w3-text-light-grey" id="projects">
-            <h2 class="-text-light-grey">Projects</h2>
-            <hr style="width:130px" class="w3-opacity">
-          </div>
+    <div class="-padding-64 w3-content w3-text-light-grey" id="projects">
+    </div>
+    <h2 class="w3-padding-16 w3-text-light-grey">Projects</h2>
+    <hr style="width:120px" class="w3-opacity">
            
             <div class="row">
               
@@ -310,9 +308,9 @@
             <br>
             <br>
             <div class="-padding-64 w3-content w3-text-light-grey" id="photos">
-              <h2 class="-text-light-grey">My Photos</h2>
-              <hr style="width:170px" class="w3-opacity">
-            </div>
+    </div>
+    <h2 class="w3-padding-16 w3-text-light-grey">Photos</h2>
+    <hr style="width:120px" class="w3-opacity">
 
             
           
@@ -328,9 +326,83 @@
               </div>
           </div>
 
+    <div class="-padding-64 w3-content w3-text-light-grey" id="resume">
+    </div>
+    <h2 class="w3-padding-16 w3-text-light-grey">Resume</h2>
+    <hr style="width:120px" class="w3-opacity">
 
-
-
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="main-timeline">
+                <div class="timeline">
+                    <x href="#" class="timeline-content">
+                        <div class="timeline-year">2021</div>
+                        <h3 class="title">NATIONAL SENIOR CERTIFICATE (NSC)</h3>
+                        <p class="description">
+                          Admission Points Score(APS)-29 |
+                          BACHELOR'S DEGREE PASS
+                          <br>
+                          <br>
+                        </p>
+                    </x>
+                </div>
+                <div class="timeline">
+                    <x href="#" class="timeline-content">
+                        <div class="timeline-year">2022</div>
+                        <h3 class="title">Web Development using HTML & CSS</h3>
+                        <p class="description">
+                          HTML/CSS Overview |
+                          TEXT FORMATTING & ANCHOR LINKS |
+                          CSS SPECIFICITY TYPOGRAPHY |
+                          Media Queries and Animation |
+                          Building responsive layouts in HTML & CSS
+                        </p>
+                    </x>
+                </div>
+                <div class="timeline">
+                    <x href="#" class="timeline-content">
+                        <div class="timeline-year">2022</div>
+                        <h3 class="title">Bootstrap5</h3>
+                        <p class="description">
+                          BOOTSTRAP OUTLINE |
+                          LAYOUT & GRIDS |
+                          COMPONENTS |
+                          UTILITIES |
+                          SYNTAX |
+                          Responsive development in BOOTSTRAP5
+                        </p>
+                    </x>
+                </div>
+                <div class="timeline">
+                    <x href="#" class="timeline-content">
+                        <div class="timeline-year">2022</div>
+                        <h3 class="title">JAVASCRIPT</h3>
+                        <p class="description">
+                          FUNCTIONS |
+                          OPERATORS-(Ternary/Logical & Precedence) |
+                          CONDITIONALS |  
+                          The Fetch API
+                        </p>
+                    </x>
+                </div>
+                <div class="timeline">
+                    <x href="#" class="timeline-content">
+                        <div class="timeline-year">2023</div>
+                        <h3 class="title">VUEJS</h3>
+                        <p class="description">
+                          COMPUTED PROPERTIES |
+                          COMPONENTS |
+                          TEMPLATES |
+                          ROUTING |
+                          Reactivity Complexity
+                        </p>
+                    </x>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -338,10 +410,8 @@
 
 
               <!-- Contact Section -->
-              <div class="-padding-64 w3-content w3-text-light-grey" id="contact">
-                <br>
-                <br>
-                <br>
+              <div id="contact">
+                
                 <h2 class="-text-light-grey">Contact Me</h2>
                 <hr style="width:180px" class="w3-opacity">
 
@@ -385,6 +455,17 @@
           </template>
 
   <style>
+  .mrrobot{
+    height: 235px;
+  }
+  .picture2{
+    height: 600px;
+    width: 550px;
+  }
+  .picture3{
+    height: 600px;
+    width: 550px;
+  }
   .port{
     height:150px ;
   }
@@ -437,6 +518,86 @@
       }
     }
     
+    
+.main-timeline:after{
+    display: block;
+    clear: both;
+}
+.main-timeline .timeline{
+    width: calc(50% + 58px);
+    border-top: 2px solid white;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.main-timeline .timeline:before{
+    background: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    position: absolute;
+    top: -5px;
+    right: 0;
+}
+.main-timeline .timeline-content{
+    color: white;
+    text-align: center;
+    padding: 15px 80px 15px 10px;
+    display: block;
+    position: relative;
+}
+.main-timeline .timeline-content:hover{ text-decoration: none; }
+.main-timeline .timeline-content:before{
+    content: "";
+    background: #00a6f9;
+    width: 15px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+.main-timeline .timeline-year{
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 700;
+    transform: translateY(-50%) rotate(90deg);
+    position: absolute;
+    top: 50%;
+    right: -15px;
+}
+.main-timeline .title{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin: 0 0 8px;
+}
+.main-timeline .description{
+    font-size: 16px;
+    margin: 0;
+}
+.main-timeline .timeline:nth-child(even){ float: right; }
+.main-timeline .timeline:nth-child(even):before{
+    right: auto;
+    left: 0;
+}
+.main-timeline .timeline:nth-child(even) .timeline-content{
+    padding: 15px 10px 15px 80px;
+}
+.main-timeline .timeline:nth-child(even) .timeline-content:before{
+    right: auto;
+    left: 51px;
+}
+.main-timeline .timeline:nth-child(even) .timeline-year{
+    right: auto;
+    left: -15px;
+}
+.main-timeline .timeline:nth-child(4n+2) .timeline-content:before{ background: #ff3e7c; }
+.main-timeline .timeline:nth-child(4n+3) .timeline-content:before{ background: #7438be; }
+.main-timeline .timeline:nth-child(4n+4) .timeline-content:before{ background: #bdc203; }
+@media screen and (max-width:767px){
+    .main-timeline .timeline{ width: 100%; }
+}
   </style>
 
 
