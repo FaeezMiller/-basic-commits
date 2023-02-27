@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link  href="https://kit.fontawesome.com/23cecef777.js" crossorigin="anonymous">
+    
 
     <title>Home</title>
 </head>
@@ -13,72 +13,63 @@
   <SideBar/>
   <TopBar/>
       <div class="spotify-playlists">
-        <h2>Spotify Playlists</h2>
+        <h2>Featured Genres</h2>
 
         <div class="list">
           <div class="item">
-            <img src="https://i.scdn.co/image/ab67616d0000b2733b5e11ca1b063583df9492db" />
+            <img src="https://i.postimg.cc/VNjgV4nq/Eletronica.jpg" />
             <div class="play">
               <span class="fa fa-play"></span>
             </div>
-            <h4>Today's Top Hits</h4>
-            <p>Rema & Selena Gomez are on top of the...</p>
+            <h4>Electronica & Dance</h4>
+            <p>Electronica & dance music ranges from ambient to high-BPM styles like house, techno, dubstep and trance.</p>
           </div>
 
           <div class="item">
-            <img src="https://i.scdn.co/image/ab67616d0000b2733b5e11ca1b063583df9492db" />
+            <img src="https://i.postimg.cc/hjJKbJH7/Beats.jpg" />
             <div class="play">
               <span class="fa fa-play"></span>
             </div>
-            <h4>RapCaviar</h4>
-            <p>New Music from Lil Baby, Juice WRLD an...</p>
+            <h4>Beats</h4>
+            <p>Beats music is percussive, bass heavy, and beat-driven. Discover our high-quality, diverse catalog of beats and filter by mood, vocals, length or BPM.</p>
           </div>
 
           <div class="item">
-            <img src="https://i.scdn.co/image/ab67616d0000b2733b5e11ca1b063583df9492db" />
+            <img src="https://i.postimg.cc/yN4hz9T7/HipHop.jpg" />
             <div class="play">
               <span class="fa fa-play"></span>
             </div>
-            <h4>All out 2010s</h4>
-            <p>The biggest spmgs pf tje 2010s. Cover:...</p>
+            <h4>Hip Hop</h4>
+            <p>Hip hop is a rhythmic music that incorporates rapping, beats, basslines, scratching or beatboxing. Discover our high-quality, diverse catalog. </p>
           </div>
 
           <div class="item">
-            <img src="https://i.scdn.co/image/ab67616d0000b2733b5e11ca1b063583df9492db" />
+            <img src="https://i.postimg.cc/MTtFsxQ2/Pop.jpg" />
             <div class="play">
               <span class="fa fa-play"></span>
             </div>
-            <h4>Rock Classics</h4>
-            <p>Rock Legends & epic songs that continue t...</p>
+            <h4>Pop</h4>
+            <p>Literally, popular music. Good rhythms, a catchy melody, pop is memorable and easy to sing along to. Discover our high-quality, diverse catalog.</p>
           </div>
 
           <div class="item">
-            <img src="https://i.scdn.co/image/ab67616d0000b2733b5e11ca1b063583df9492db" />
+            <img src="https://i.postimg.cc/WbrbHfXY/Acoustic.jpg" />
             <div class="play">
               <span class="fa fa-play"></span>
             </div>
-            <h4>Chill Hits</h4>
-            <p>Kick back to the best new and recent chill...</p>
+            <h4>Acoustic</h4>
+            <p>Strings, keys and drums in perfect harmony. Discover our high-quality, diverse catalog of beats and filter by mood.</p>
           </div>
 
-          <div class="item">
-            <img src="https://i.scdn.co/image/ab67616d0000b2733b5e11ca1b063583df9492db" />
+         <div class="item">
+            <img src="https://i.postimg.cc/R0bBFcgn/Rock.jpg" />
             <div class="play">
               <span class="fa fa-play"></span>
             </div>
-            <h4>Viva Latino</h4>
-            <p>Today's top Latin hits elevando nuestra...</p>
+            <h4>Rock Music</h4>
+            <p>Rock music, also called rock and roll it's defined as “a form of music with a strong beat”—it is difficult to be much more explicit about it.</p>
           </div>
-
-          <div class="item">
-            <img src="https://i.scdn.co/image/ab67616d0000b2733b5e11ca1b063583df9492db" />
-            <div class="play">
-              <span class="fa fa-play"></span>
-            </div>
-            <h4>Mega Hit Mix</h4>
-            <p>A mega mix of 75 favorites from the last...</p>
-          </div>
-
+<br>
           <div class="item">
             <img src="https://i.scdn.co/image/ab67616d0000b2733b5e11ca1b063583df9492db" />
             <div class="play">
@@ -249,25 +240,13 @@
  </html>
 </template>
 
-<script>
-import SideBar from '@/components/SideBar.vue'
-import TopBar from '@/components/TopBar.vue'
-
-export default {
-  name: 'HomeView',
-  components: {
-    SideBar , TopBar
-  }
-}
-
-
-</script>
 
 
 <style>
 body {
-    background-color: #121212;
+  background-color: #121212;
     font-family: 'Montserrat', sans-serif;
+    margin-left:130px ;
   }
   .spotify-playlists {
     padding: 20px 40px;
@@ -334,4 +313,19 @@ body {
     margin: 70px 0px 0px;
     border-color: #636363;
   }
-</style>
+  </style>
+
+  <script>
+  import SideBar from '@/components/SideBar.vue'
+  import TopBar from '@/components/TopBar.vue'
+  
+  
+  export default {
+    name: 'HomeView',
+    components: {
+      SideBar , TopBar, 
+    }
+  }
+  
+  
+  </script>

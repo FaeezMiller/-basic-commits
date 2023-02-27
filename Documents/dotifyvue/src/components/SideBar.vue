@@ -10,25 +10,19 @@
       <div class="navigation">
         <ul>
           <li>
-            <a href="#">
-              <span class="fa fa-home"></span>
-              <span>Home</span>
-            </a>
+            <router-link to="/" ><b>Home</b></router-link>
           </li>
 
           <li>
             <a href="#">
-              <span class="fa fa-search"></span>
               <span>Search</span>
             </a>
           </li>
-
           <li>
-            <a href="../views/LibaryView.vue">
-              <span class="fa fas fa-book"></span>
-              <span>Your Library</span>
-            </a>
+            <router-link to="/library" class="routerLink">Your Library</router-link>   
           </li>
+          
+          
         </ul>
       </div>
 
@@ -44,12 +38,10 @@
               <span>Liked Songs</span>
             </a>
           </li>
-
           <li>
-            <a href="#">
-              <span>Artist</span>
-            </a>
+            <router-link to="" class="routerLink">Artist</router-link>   
           </li>
+          
         </ul>
       </div>
 
@@ -61,9 +53,12 @@
           <li>
             <a href="#">Privacy</a>
           </li>
+          
         </ul>
       </div>
     </div>
+
+    
 </template>
 
 <script>
@@ -90,6 +85,7 @@ export default {
     min-width: 196px;
     background-color: #000000;
     padding: 24px;
+    font-family: 'Montserrat', sans-serif;
   }
   .sidebar .logo img {
     width: 130px;
@@ -104,7 +100,7 @@ export default {
   .sidebar .navigation ul li a {
     color: #b3b3b3;
     text-decoration: none;
-    font-weight: bold;
+    
     font-size: 13px;
   }
   .sidebar .navigation ul li a:hover,
@@ -147,4 +143,6 @@ export default {
   .sidebar .policies ul li a:focus {
     text-decoration: underline;
   }
+
+
 </style>

@@ -1,5 +1,6 @@
 <template>
-  <div class="main-container">
+    <body>
+     <div class="main-container">
       <div class="topbar">
         <div class="prev-next-buttons">
           <button type="button" class="fa fas fa-chevron-left"></button>
@@ -19,13 +20,17 @@
             </li>
             <li class="divider">|</li>
             <li>
-              <a href="#">Sign Up</a>
+            <router-link to="/login" class="routerLink">Sign up</router-link>
             </li>
           </ul>
-          <button type="button">Log In</button>
+          <li>
+            <router-link to="/login" class="routerLink"><button type="button">Log In</button></router-link>
+          </li>
+          
         </div>
       </div>
     </div>
+</body>
 </template>
 
 <script>
@@ -35,15 +40,17 @@ export default {
     msg: String
   }
 }
+
 </script>
 
 <style>
-.main-container {
+     .main-container {
     margin-left: 245px;
     margin-bottom: 100px;
   }
   
   .topbar {
+    min-width: none;
     display: flex;
     justify-content: space-between;
     background-color: #101010;
@@ -100,7 +107,7 @@ export default {
     border: 0px;
     border-radius: 40px;
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 10px;
   }
   .topbar .navbar button:hover,
   .topbar .navbar button:active,
@@ -108,5 +115,4 @@ export default {
     background-color: #f2f2f2;
   }
 </style>
-
 
